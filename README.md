@@ -15,7 +15,7 @@ The smart contract ErrorHandling includes three functions:
 1.`Parameters`: Takes two unsigned integers, p and q.
 
 2.`Description`: Uses assert to ensure p and q are both greater than zero, and that their product (p * q) is greater than their sum (p + q).
-'
+
 3.`Error Handling`: If any condition fails, the function stops execution, consuming all remaining gas. This indicates a serious contract error.
 
 ## revert_method
